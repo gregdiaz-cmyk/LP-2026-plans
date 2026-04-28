@@ -61,6 +61,20 @@
   .plan-card.highlight ul.feature-list li::before { background: var(--gold-light); }
   ul.feature-list.addons li::before { content: '+'; top: 0; background: none; color: var(--gold); font-size: 12px; font-weight: 500; width: auto; height: auto; }
   .plan-card.highlight ul.feature-list.addons li::before { color: var(--gold-light); }
+  .upgrade-section {
+    margin-top: auto;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--border);
+  }
+  .plan-card.highlight .upgrade-section { border-top-color: rgba(255,255,255,0.12); }
+  .upgrade-section-label {
+    font-size: 9px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 0.6rem;
+  }
+  .plan-card.highlight .upgrade-section-label { color: var(--gold-light); }
   .upgrade-pill { margin-top: auto; padding-top: 2rem; display: block; font-size: 11px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); border: 1px solid var(--border-strong); padding: 8px 16px; border-radius: 1px; text-align: center; margin-top: 2rem; transition: background 0.2s, color 0.2s; }
   .plan-card:hover .upgrade-pill { background: var(--gold); color: var(--white); border-color: var(--gold); }
   .plan-card.highlight .upgrade-pill { border-color: rgba(255,255,255,0.2); color: rgba(255,255,255,0.6); }
@@ -203,16 +217,6 @@
 
             </div>
 
-      <p class="block-label">Upsell to Brand unlocks</p>
-      <ul class="feature-list">
-        <li>SEO &amp; AI Search optimizations</li>
-        <li>Google Business Profile</li>
-        <li>Hyperlocal + listing ads (up to $1K)</li>
-        <li>Phone support</li>
-        <li>Up to 3 users</li>
-        <li>3,000 nurtured contacts</li>
-      </ul>
-
       <p class="block-label">Available add-ons</p>
       <ul class="feature-list addons">
         <li>Social Media Management — $400/mo</li>
@@ -223,7 +227,19 @@
         <li>Design refresh — $1,500 (one-time)</li>
       </ul>
 
-      <div class="upgrade-pill">Upgrade path &#8594; Brand</div>
+      <div class="upgrade-section">
+        <p class="upgrade-section-label">Upgrade path &#8594; Brand</p>
+        <div class="upgrade-pill">Upgrade to Brand</div>
+        <p class="block-label" style="margin-top:1rem;">What Brand unlocks</p>
+        <ul class="feature-list">
+          <li>SEO &amp; AI Search optimizations</li>
+          <li>Google Business Profile</li>
+          <li>Hyperlocal + listing ads (up to $1K)</li>
+          <li>Phone support</li>
+          <li>Up to 3 users</li>
+          <li>3,000 nurtured contacts</li>
+        </ul>
+      </div>
     </div>
 
     <!-- BRAND -->
@@ -297,17 +313,6 @@
 
             </div>
 
-      <p class="block-label">Upsell to Scale unlocks</p>
-      <ul class="feature-list">
-        <li>Retargeting ads (Google &amp; Meta)</li>
-        <li>Ad budget management up to $5K</li>
-        <li>Social Media Management included</li>
-        <li>AI SMS nurture (200/mo)</li>
-        <li>1:1 success &amp; support</li>
-        <li>Up to 10 users + agent sub-domains</li>
-        <li>10,000 nurtured contacts</li>
-      </ul>
-
       <p class="block-label">Available add-ons</p>
       <ul class="feature-list addons">
         <li>Social Media Management — $400/mo</li>
@@ -318,7 +323,20 @@
         <li>Design refresh — $1,500 (one-time)</li>
       </ul>
 
-      <div class="upgrade-pill">Upgrade path &#8594; Scale</div>
+      <div class="upgrade-section">
+        <p class="upgrade-section-label">Upgrade path &#8594; Scale</p>
+        <div class="upgrade-pill">Upgrade to Scale</div>
+        <p class="block-label" style="margin-top:1rem;">What Scale unlocks</p>
+        <ul class="feature-list">
+          <li>Retargeting ads (Google &amp; Meta)</li>
+          <li>Ad budget management up to $5K</li>
+          <li>Social Media Management included</li>
+          <li>AI SMS nurture (200/mo)</li>
+          <li>1:1 success &amp; support</li>
+          <li>Up to 10 users + agent sub-domains</li>
+          <li>10,000 nurtured contacts</li>
+        </ul>
+      </div>
     </div>
 
     <!-- SCALE -->
@@ -396,16 +414,6 @@
 
             </div>
 
-      <p class="block-label">Upsell to All In unlocks</p>
-      <ul class="feature-list">
-        <li>Premium SEO &amp; AI Search program</li>
-        <li>Ad budget management up to $10K</li>
-        <li>Branded mobile app included</li>
-        <li>AI SMS nurture 500/mo</li>
-        <li>Up to 20 users</li>
-        <li>50,000 nurtured contacts</li>
-      </ul>
-
       <p class="block-label">Available add-ons</p>
       <ul class="feature-list addons">
         <li>Branded mobile app — additional seats $50–$80/mo</li>
@@ -416,7 +424,19 @@
         <li>Collective by Luxury Presence</li>
       </ul>
 
-      <div class="upgrade-pill">Upgrade path &#8594; All In</div>
+      <div class="upgrade-section">
+        <p class="upgrade-section-label">Upgrade path &#8594; All In</p>
+        <div class="upgrade-pill">Upgrade to All In</div>
+        <p class="block-label" style="margin-top:1rem;">What All In unlocks</p>
+        <ul class="feature-list">
+          <li>Premium SEO &amp; AI Search program</li>
+          <li>Ad budget management up to $10K</li>
+          <li>Branded mobile app included</li>
+          <li>AI SMS nurture 500/mo</li>
+          <li>Up to 20 users</li>
+          <li>50,000 nurtured contacts</li>
+        </ul>
+      </div>
     </div>
 
     <!-- ALL IN -->
@@ -518,7 +538,10 @@
         <li>Custom website / custom element</li>
       </ul>
 
-      <div class="upgrade-pill">Top tier — fully loaded</div>
+      <div class="upgrade-section">
+        <p class="upgrade-section-label">Top tier</p>
+        <div class="upgrade-pill" style="cursor:default;">You're fully loaded &#10003;</div>
+      </div>
     </div>
 
   </div>
